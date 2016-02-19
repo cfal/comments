@@ -1,0 +1,37 @@
+{
+  "name": "comments",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alex Lau",
+  "dependencies": {
+    "basic-auth": "^1.0.3",
+    "co-body": "^4.0.0",
+    "co-monk": "^1.0.0",
+    "flux": "^2.1.1",
+    "koa": "^1.1.2",
+    "koa-router": "^5.3.0",
+    "koa-static": "^1.5.2",
+    "lodash": "^3.10.1",
+    "mongodb": "1.4.39",
+    "monk": "^1.0.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "xhr": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-if": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "less": "^2.5.3",
+    "lorem-ipsum": "^1.0.3",
+    "request": "^2.67.0",
+    "vinyl-buffer": "^1.0.0",
+    "webpack": "^1.12.9",
+    "webpack-stream": "^2.2.0"
+  }
+}

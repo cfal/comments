@@ -1,0 +1,69 @@
+#comments-holder {
+    font-size: 0.9em;
+    padding: 5px;
+    .comment-auth-login-container,.comment-auth-logout-container {
+        font-size: 90%;
+        padding: 8px;
+        background: #def;
+        margin-bottom: 5px;
+    }
+    .comment-auth-name { font-weight: bold; }
+    .comment-auth-username,.comment-auth-password,.comment-auth-login {
+        display: inline-block;
+        padding: 1px;
+    }
+    .comment-auth-details,.comment-auth-logout {
+        display: inline-block;
+        padding: 1px;
+    }
+    .comment-action-container { font-size: 90%; padding-bottom: 10px; }
+    .comment-action-container a { cursor: pointer; text-decoration: underline; color: #00c; }
+    .comment-action-container-expanded { font-size: 90%; padding-bottom: 10px; }
+    .comment-action-container-saving { font-size: 90%; color: #0c0; padding-bottom: 10px; }
+    .comment-action-title,.comment-action-text { padding: 2px 0px; }
+    .comment-action-text textarea { width: 480px; height: 80px; }
+    .comment-action-menu { padding: 2px 0px; }
+    .comment-container {
+        padding: 5px 10px 0px 10px;
+        .comment-list {
+            margin-left: 40px;
+            border-left: 1px solid #aaa;
+        }
+        .comment-action-container,.comment-action-container-expanded,.comment-action-container-saving {
+            margin-left: 45px;
+        }
+        .comment-upvote-container { float: left; font-size: 95%; text-align: center; margin-right: 5px; }
+        .comment-upvote,
+        .comment-upvote-selected,
+        .comment-downvote,
+        .comment-downvote-selected {
+            cursor: pointer;
+            width: 40px;
+            font-weight: bold;
+            padding: 3px 0px;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        .comment-upvote { color: #070; }
+        .comment-upvote-selected { background: #070; color: #fff; }
+        .comment-downvote { color: #700; }
+        .comment-downvote-selected { background: #700; color: #fff; }
+        .comment-title { font-weight: bold; font-size: 95%; display: inline-block; padding-right: 6px; }
+        .comment-score,.comment-score-pos,.comment-score-neg {
+            display: inline-block;
+            font-weight: bold;
+            font-size: 80%;
+        }
+        .comment-score-pos { color: #090; }
+        .comment-score-neg { color: #900; }
+        .comment-details { font-size: 80%; display: inline-block; color: #555; padding: 0px 4px; }
+        .comment-body { margin-left: 45px; padding: 5px 0px; }
+
+        .comment-children-container { margin-left: 45px; }
+
+    }
+}
